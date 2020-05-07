@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html><title>kumbh mela prayagraj group g2</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.header-overlay a
+{
+color:yellow;
+text-decoration:none;
+}
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<video autoplay loop id="myVideo">
+  <source src="code.mov.mp4" type="video/mp4">
+  </video>
+<div class="content">
+  <h1><font color="red">KUMBH</font></h1>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+
+
+<div class="header-overlay" >
+<center><h1>
+  <maquee direction="left"><a href="#home" >Home</a>  &nbsp &nbsp &nbsp
+<a href="C:\Users\vivek kumar tripathi\Desktop\project\photos\image.html" >Photos</a>  &nbsp &nbsp &nbsp 
+  <a href="C:\Users\vivek kumar tripathi\Desktop\project\bathing days\page.html
+">Bathing days</a>  &nbsp &nbsp &nbsp
+  <a href="C:\Users\vivek kumar tripathi\Desktop\project\cont.html">Contact</a>  &nbsp 
+   <a href="C:\Users\vivek kumar tripathi\Desktop\project\transport.html">Transport Facility</a> </marquee> &nbsp 
+  
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+</body>
+</html>

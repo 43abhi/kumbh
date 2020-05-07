@@ -1,0 +1,28 @@
+hearder
+{
+font size:24px;
+font-family: "dokdo", cursive;
+text-align:center;
+}
+main
+{
+margin-left:150px;
+}
+.box
+{
+display:block;
+float:left;
+width:100%;
+padding:10px;
+padding-left:12px;
+}
+img
+{
+width:50%;
+border-radius:10px;
+}
+img:hover
+{
+transform:scale(2,2);
+transition: .3s transform;
+}
